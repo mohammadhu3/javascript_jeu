@@ -19,4 +19,4 @@ Petit jeu en JavaScript : le joueur affronte l'ordinateur avec trois pouvoirs.
 - Scores et bouton "Rejouer" ajoutés pour une expérience complète  
 
 ### Démo
-[👉 Mon jeu sur GitHub Pages](https://<ton-user>.github.io/jeu-pouvoirs-js/)
+👉 Mon jeu sur GitHub Pages]https://mohammadhu3.github.io/javascript_jeu/
