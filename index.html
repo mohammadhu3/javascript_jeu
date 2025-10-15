@@ -1,11 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Javascript Jeu</title>
-  </head>
-  <body>
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jeu Feu Eau Terre</title>
+  <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
 
-  </body>
+<body>
+  <header>
+    <h1> Jeu Feu Eau Terre </h1>
+    <p>Feu bat Terre — Eau bat Feu — Terre bat Eau</p>
+  </header>
+
+  <main>
+    <section class="jeu">
+      <div class="buttons">
+        <button data-power="feu"> Feu</button>
+        <button data-power="eau"> Eau</button>
+        <button data-power="terre"> Terre</button>
+      </div>
+
+      <div class="resultats">
+        <p>Joueur : <span id="playerChoice">—</span></p>
+        <p>Ordinateur : <span id="pcChoice">—</span></p>
+        <p id="message">Clique sur un bouton pour jouer !</p>
+      </div>
+
+      <div class="scores">
+        <p>Score Joueur : <span id="playerScore">0</span></p>
+        <p>Score Ordinateur : <span id="pcScore">0</span></p>
+      </div>
+
+      <button id="reset" hidden> Rejouer</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projet FOAD — Jeu JavaScript (Feu Eau Terre)</p>
+  </footer>
+
+  <script type="module" src="./assets/js/dom.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #0b1120;
+  color: #f5f7ff;
+  text-align: center;
+  line-height: 1.6;
+}
+
+header {
+  background: #1a2458;
+  padding: 1.2rem;
+  color: white;
+}
+
+h1 {
+  margin: 0.5rem 0;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+.buttons {
+  margin-bottom: 1.2rem;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.8rem 1.4rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #223273;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #334499;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.resultats, .scores {
+  margin: 1rem 0;
+  background: #16225a;
+  border-radius: 8px;
+  padding: 0.8rem;
+  display: inline-block;
+  text-align: left;
+}
+
+#message {
+  font-weight: bold;
+  margin-top: 0.6rem;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
